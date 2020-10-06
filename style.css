@@ -1,0 +1,95 @@
+
+/* format for the header, which includes my name and occupation*/
+header {
+  background-color: #301934;
+  text-align: center;
+}
+.name {
+  color: gainsboro;
+  font-family: 'Secular One', sans-serif;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+}
+.occupation {
+  font-family: 'Sansita Swashed', cursive;
+  color:  floralwhite;
+  font-size: 28px;
+  padding: 0;
+  margin: 0;
+}
+/*formatting for the nav bar*/
+nav {
+  background-color: gainsboro;
+  text-align: center;
+  font-family: 'Miriam Libre', sans-serif;
+  padding: 20px auto;
+
+}
+
+nav li {
+  display: inline;
+  padding-right: 20px;
+}
+
+/*link formats and pseudo classes for all hyperlinks in the website*/
+a:link{
+  color: maroon;
+  text-decoration: none;
+}
+a:hover {
+  color: maroon;
+  text-decoration: underline;
+}
+a:active {
+  color: blueviolet; 
+}
+
+/*formatting for the main content*/
+img {
+  padding-top: 20px;
+}
+main {
+  background-color: whitesmoke;
+  color: black;
+  padding-bottom: 50px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.greeting {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Secular One', sans-serif;
+  font-size: 18px;
+}
+
+/*formatting for all main texts*/
+main p, ol, ul {
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 12px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: left;
+}
+
+main h3 {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Secular One', sans-serif;
+  font-size: 16px;
+}
+
+/*formatting for footer*/
+footer {
+  text-align: center;
+  background-color: gray;
+  color: beige;
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 8px;
+}
