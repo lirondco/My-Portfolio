@@ -72,8 +72,8 @@ main {
 main p, ol, ul {
   font-family: 'Miriam Libre', sans-serif;
   font-size: 12px;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 250px;
+  margin-right: 250px;
   text-align: right;
 }
 
